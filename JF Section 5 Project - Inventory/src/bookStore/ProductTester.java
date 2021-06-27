@@ -1,5 +1,5 @@
-// Nama : Andriawan
-// NIM : 1970231150
+// Nama : Redi Tri
+// NIM : 1970231148
 
 package bookStore;
 
@@ -39,20 +39,20 @@ public class ProductTester {
 		
 		Product p3 = new Product();
 		p3.setBookId("3");
-		p3.setBookName("Hidup Minimalis Ala Orang Jepang");
+		p3.setBookName("Guru Aini");
 		p3.setBookStock(11);
 		p3.setBookPrice(15);
 		p3.setBookActive(false);
 		
 		Product p4 = new Product();
 		p4.setBookId("4");
-		p4.setBookName("Bumi Manusia");
+		p4.setBookName("Hujan Bulan Juni");
 		p4.setBookStock(11);
 		p4.setBookPrice(20);
 		p4.setBookActive(true);
 		
-		Product p5 = new Product("5", "Nanti Kita Cerita Tentang Hari Ini", 20, 50, true);
-		Product p6 = new Product("6", "Negeri Para Bedebah", 15, 26, true);
+		Product p5 = new Product("5", "Man Tiger", 20, 50, true);
+		Product p6 = new Product("6", "Supernova", 15, 26, true);
 		
 		System.out.println(p1);
 		System.out.println(p2);
